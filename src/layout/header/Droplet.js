@@ -1,0 +1,39 @@
+import { Droplet, FileText, Users, Anchor, Settings ,Activity,Clipboard} from 'react-feather';
+import { GridDashboard,Content,Activitys,Contacts,Reports,Automation,Setting,FollowsUp } from "../../constant";
+import useOutsideDropdown from '../../services/useOutsideDropdown';
+const DropletHeader = () => {
+  const { ref, isComponentVisible, setIsComponentVisible } =useOutsideDropdown(false);
+
+    return(
+      <div ref={ref} className={`dropdown droplet-menu ${isComponentVisible && "show"}`}>
+        <a
+          href="#javascript"
+          onClick={() => {
+            setIsComponentVisible(!isComponentVisible);
+          }}
+        ><Droplet/></a>
+        <div className={`p-0 dropdown-menu ${isComponentVisible && "show"} `}>
+        <ul className="droplet-dropdown">
+             <li className="gradient-primary-1 text-center">
+               <h6>{GridDashboard}</h6><span>{"Easy Grid inside dropdown"}</span>
+             </li>
+             <li>
+               <div className="row">
+                 <div className="col-sm-4 col-6 droplet-main"><FileText/><span className="d-block">{Content}</span></div>
+                 <div className="col-sm-4 col-6 droplet-main"><Activity/><span className="d-block">{Activitys}</span></div>
+                 <div className="col-sm-4 col-6 droplet-main"><Users/><span className="d-block">{Contacts}</span></div>
+                 <div className="col-sm-4 col-6 droplet-main"><Clipboard/><span className="d-block">{Reports}</span></div>
+                 <div className="col-sm-4 col-6 droplet-main"><Anchor/><span className="d-block">{Automation}</span></div>
+                 <div className="col-sm-4 col-6 droplet-main"><Settings/><span className="d-block">{Setting}</span></div>
+               </div>
+             </li>
+             <li className="text-center">
+               <button className="btn btn-primary btn-air-primary">{FollowsUp}</button>
+             </li>
+         </ul>
+        </div>
+      </div>
+    )
+}
+
+export default DropletHeader
