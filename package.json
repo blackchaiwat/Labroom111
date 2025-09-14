@@ -1,0 +1,121 @@
+{
+  "name": "salesboarddev",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://salesboarddev.promptkai.com",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^44.3.0",
+    "@ckeditor/ckeditor5-react": "^9.5.0",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.1",
+    "@fullcalendar/react": "^6.1.2",
+    "@fullcalendar/timegrid": "^6.1.1",
+    "@react-google-maps/api": "^2.18.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/markerclustererplus": "^2.1.33",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "apexcharts": "^4.2.0",
+    "axios": "^1.3.2",
+    "body-scroll-lock": "^3.1.5",
+    "bootstrap": "^5.2.3",
+    "bootstrap-scss": "^5.2.3",
+    "chart.js": "^4.2.0",
+    "classnames": "^2.3.2",
+    "easymde": "^2.20.0",
+    "emoji-picker-react": "^4.4.7",
+    "feather-icons": "^4.29.0",
+    "leaflet": "^1.9.3",
+    "numeral": "^2.0.6",
+    "photoswipe": "^5.3.6",
+    "react-apexcharts": "^1.7.0",
+    "react-big-calendar": "^1.6.3",
+    "react-bootstrap": "^2.7.0",
+    "react-bootstrap-typeahead": "^6.0.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-clock": "^4.1.0",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-countdown": "^2.3.5",
+    "react-countup": "^6.4.1",
+    "react-data-table-component": "^7.5.3",
+    "react-datepicker": "^4.10.0",
+    "react-dragula": "^1.1.17",
+    "react-dropzone-uploader": "^2.11.0",
+    "react-feather": "^2.0.10",
+    "react-geocode": "^0.2.3",
+    "react-google-charts": "^4.0.0",
+    "react-hook-form": "^7.43.0",
+    "react-image-crop": "^10.0.9",
+    "react-leaflet": "^4.2.1",
+    "react-masonry-css": "^1.0.16",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-photoswipe-gallery": "^2.2.6",
+    "react-quill": "^2.0.0",
+    "react-range": "^1.8.14",
+    "react-rating": "^2.0.5",
+    "react-ratings-declarative": "^3.4.1",
+    "react-redux": "^8.0.5",
+    "react-router": "^6.8.0",
+    "react-router-dom": "^6.8.0",
+    "react-scripts": "^5.0.1",
+    "react-simplemde-editor": "^5.2.0",
+    "react-slick": "^0.29.0",
+    "react-sparklines": "^1.7.0",
+    "react-to-print": "^2.14.11",
+    "react-toastify": "^9.1.1",
+    "react-transition-group": "^4.4.5",
+    "react-trello": "^2.2.11",
+    "react-vertical-timeline-component": "^3.6.0",
+    "reactour": "^1.19.0",
+    "reactstrap": "^9.1.4",
+    "redux": "^4.2.1",
+    "redux-saga": "^1.2.2",
+    "sass": "^1.58.0",
+    "styled-components": "^5.3.6",
+    "sweetalert2": "^11.6.13",
+    "world-map-geojson": "^1.0.2"
+  },
+  "scripts": {
+    "start": "react-scripts --max_old_space_size=8096 start",
+    "build": "react-scripts --max_old_space_size=8096 build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "rules": {
+      "react-hooks/exhaustive-deps": "off",
+      "no-dupe-keys": "off"
+    },
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.40",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "resolve-url-loader": "^5.0.0"
+  },
+  "overrides": {
+    "@svgr/plugin-svgo": "^6.0.0",
+    "@svgr/webpack": "^6.0.0",
+    "resolve-url-loader": "^5.0.0"
+  }
+}

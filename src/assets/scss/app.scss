@@ -1,0 +1,329 @@
+@import "~bootstrap-scss/bootstrap.scss";
+@import "themify.scss";
+@import "material-design-icon.scss";
+@import "typicon-icon.scss";
+@import "pe7-icon.scss";
+@import "ionic-icon.scss";
+@import "simple-line-icon.scss";
+@import "whether-icon/whether-icon";
+@import "flag-icon/flag-icon-base";
+@import "flag-icon/flag-icon-more";
+@import "flag-icon/flag-icon-list";
+@import "icoicon/icons";
+@import "font-awesome.scss";
+@import "chartist/chartist-settings";
+@import "chartist/chartist";
+@import "sticky/sticky";
+// react clock
+@import "~react-clock/dist/Clock.css";
+
+@import "~photoswipe/dist/photoswipe.css";
+//  Toastify
+@import "~react-toastify/dist/ReactToastify.css";
+
+//  calendar
+@import "~react-big-calendar/lib/sass/styles.scss";
+@import "react-perfect-scrollbar/dist/css/styles.css";
+
+// @import "~sweetalert2/src/sweetalert2.scss";
+// @import "~@fullcalendar/core/main.css";
+// @import "~@fullcalendar/daygrid/main.css";
+// @import "~@fullcalendar/timegrid/main.css";
+
+// range slider
+// @import "~react-input-range/lib/css/index.css";
+
+//  Dropzone
+@import "~react-dropzone-uploader/dist/styles.css";
+
+// DragAndDrop
+@import "~react-dragula/dist/dragula.css";
+
+// Datepicker
+@import "~react-datepicker/dist/react-datepicker.css";
+
+// Timepicker
+// @import '~react-times/css/material/default.css';
+// @import '~react-times/css/classic/default.css';
+
+// input-range
+// @import "~react-input-range/lib/css/index.css";
+
+// Typeahead
+@import "~react-bootstrap-typeahead/css/Typeahead.css";
+
+// ImageCrop
+@import "~react-image-crop/dist/ReactCrop.css";
+
+//  Timeline
+@import "~react-vertical-timeline-component/style.min.css";
+
+// Print
+@import "./print.scss";
+
+// Mde EDitor
+@import "~easymde/dist/easymde.min.css";
+
+// Map
+@import "~leaflet/dist/leaflet.css";
+
+// @import "slick-carousel/slick/slick.css";
+// @import "slick-carousel/slick/slick-theme.css";
+
+//  Slick Slider
+@import "./slick.scss";
+@import "./slick-theme.scss";
+
+@import "./style.scss";
+
+@import "./global.css";
+
+@font-face {
+  font-family: "Prompt";
+  src: url("../fonts/Prompt-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Prompt-Bold";
+  src: url("../fonts/Prompt-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box-filter {
+  display: flex;
+}
+
+.filter-select {
+  background-color: #f3f3f3;
+  border: 1px solid #9d9d9d;
+  padding: 12px 30px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.filter-select p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.filter-select.active {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+.apexcharts-text,
+.apexcharts-legend-text,
+.apexcharts-tooltip,
+.custom-tooltip {
+  font-family: "Prompt", sans-serif !important;
+}
+
+.box-card {
+  padding: 20px 10px 24px !important;
+  min-height: 100px;
+  text-align: center;
+  height: 100%;
+}
+
+.box-card2 {
+  padding: 20px 10px 5px !important;
+  min-height: 150px;
+  text-align: center;
+  height: 100%;
+}
+
+.box-card-title {
+  min-height: 55px;
+}
+
+.box-card-title2 {
+  min-height: 65px;
+}
+
+.box-card-title3 {
+  min-height: 30px;
+}
+
+.box-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.loading {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  z-index: 999999;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quill-is-invalid {
+  border: 1px solid #dc3545;
+}
+.custom-quill .ql-editor {
+  min-height: 250px;
+}
+
+.ql-container {
+  min-height: 250px;
+}
+
+.ql-editor {
+  min-height: 250px;
+  padding-bottom: 20px;
+}
+
+.link-title {
+  margin: 0px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.link-title:hover {
+  color: #158df7;
+  text-decoration: underline;
+}
+
+.custom-sidebar {
+  background-color: #d4d4d7;
+  color: black;
+}
+
+.menu-link,
+.sidebar-header.active,
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu > li.active > a {
+  background-color: #d4d4d7 !important;
+  color: black !important;
+}
+
+.rbt-token {
+  font-size: 13px !important;
+}
+
+.rbt-input-multi .rbt-input-wrapper {
+  font-size: 13px !important;
+  color: black !important;
+}
+
+.rbt-input-multi.form-control {
+  background-color: #d9d9d9 !important;
+}
+
+.profile-select {
+  background-color: #d9d9d9;
+  padding: 7px 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  min-height: 40px;
+}
+
+.profile-select p {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  margin-left: 14px;
+}
+
+.profile-select.active {
+  background-color: #d4d4d7;
+  color: black;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-checkbox {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkmark {
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  border-radius: 0px;
+  transition: 0.3s;
+}
+
+.checkbox-container:hover .checkmark {
+  background-color: #b8b8b8;
+}
+
+.custom-checkbox:checked + .checkmark {
+  background-color: #034bb9;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.custom-checkbox:checked + .checkmark::after {
+  display: block;
+}
+
+.checkmark::after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checkmark.check-lg::after {
+  top: 7px;
+}
+
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-header {
+  color: black !important;
+}
+
+.page-wrapper .page-body-wrapper .page-sidebar .main-header-left {
+  background-color: white !important;
+}
+
+.page-wrapper .page-body-wrapper .page-sidebar .sidebar-menu .sidebar-header {
+  display: flex;
+  align-items: center;
+}
+
+.input-search {
+  width: 350px;
+}
+
+@media only screen and (max-width: 601px) {
+  .input-search {
+    width: 250px;
+  }
+}
